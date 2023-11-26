@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sepatu1</title>
+    <style>
+        .product-container {
+            align-items: center;
+        }
+
+        .product-image img {
+            max-width: 20%;
+        }
+
+        .product-image {
+
+            margin-right: 1px;
+        }
+
+        .product-details {
+            flex: 1;
+            margin-left: 1vh;
+            padding-bottom: 10px;
+        }
+
+        .add-to-cart-button {
+            background-color: #ff6600;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-container">
+        <div class="product-image">
+            <img src="sepatu1.jpg" alt="Product Image">
+        </div>
+        <div class="product-details">
+            <h3>Sepatu Nike</h3>
+            <h4>Rp. 150.000,00</h4>
+            <button class="add-to-cart-button" onclick="sendWhatsAppMessage()">Beli</button><br>
+            <p>Deskripsi Produk : <br>
+               * Brand : Jordan <br>
+               * Warna : Putih Bermotif <br>
+               * Type : Shoes Kids <br> 
+               * Include : Box (Brand) <br>
+               * Ready Size : 21 - 35</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

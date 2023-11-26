@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tas</title>
+    <style>
+        .product-container {
+            align-items: center;
+        }
+
+        .product-image img {
+            max-width: 20%; 
+        }
+
+        .product-image {
+            
+            margin-right: 1px;
+        }
+
+        .product-details {
+            flex: 1;
+            margin-left: 1vh;
+            padding-bottom: 10px;
+        }
+
+        .add-to-cart-button {
+            background-color: #ff6600;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-container">
+        <div class="product-image">
+            <img src="tas.pro.jpg" alt="Product Image">
+        </div>
+        <div class="product-details">
+            <h3>Tas</h3>
+            <h4>Rp. 80.000,00</h4>
+            <button class="add-to-cart-button" onclick="sendWhatsAppMessage()">Beli</button><br>
+            <p> Deskripsi Produk : <br>
+                *Bahan : kanvas <br>
+                *Ukuran :40x30x10 <br>
+                *Berat 275 gram</p>  
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
